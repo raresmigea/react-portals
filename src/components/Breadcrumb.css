@@ -5,13 +5,13 @@
 }
 
 .breadcrumb ol li:not(:last-child)::after {
-  content: ">";
+  content: '/';
   margin: 0 10px;
   color: black;
 }
 
 .breadcrumb ol li:not(:only-child):last-child a {
-  color: black;
+  color: red;
   pointer-events: none;
   font-weight: bold;
 }
